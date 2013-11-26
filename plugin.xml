@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<plugin>
+	<nom>Rewriting Parent Cleaner</nom>
+ 	<version>1.0</version>
+ 	<prefix>rewritingParentCleaner</prefix>
+	<type>classique</type>
+ 	<auteur>Etienne Roudeix eroudeix@openstudio.fr</auteur>
+ 	<thelia>1.5.0</thelia>
+ 	<description>Corrige les URL's réécrite corrompues à cause du changement de rubrique d'un produit / de dossier d'un contenu</description>
+ 	<documentation>Readme.txt</documentation>
+ 	<etat>production</etat>
+</plugin>
