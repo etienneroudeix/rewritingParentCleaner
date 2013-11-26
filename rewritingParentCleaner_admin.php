@@ -33,7 +33,7 @@ if(count($productErrorList) > 0) {
     foreach($productErrorList as $productError) {
 ?>
                 <tr>
-                    <td>
+                    <td <?php if(!$productError['reecriture']->actif) { ?> style="color: blue"<?php } ?>>
                         <strong><?php echo $productError['reecriture']->url; ?></strong>
                         pointe sur la rubrique <strong><?php echo $productError['param']['id_rubrique']; ?></strong>
                         au lieu de la rubrique <strong><?php echo $productError['produit']->rubrique; ?></strong>
